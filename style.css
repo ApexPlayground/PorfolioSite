@@ -342,22 +342,15 @@ textarea {
 
 @media only screen and (max-width: 480px) {
   .about_body2 p {
-    max-width: 430px;
-    margin: 0 auto;
-    padding: 2rem;
-    font-size: 1.2rem;
-    line-height: 1.6rem;
+    margin: 5% auto;
+    max-width: 340px;
   }
 
   .grid-container {
-    max-width: 430px;
-    margin: 0 auto;
-    padding-right: 60px;
-    padding-left: 20px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    list-style: none;
-    gap: 50px;
+    margin: 0% auto;
+    padding-right: 42px;
   }
 }
 
