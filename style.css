@@ -348,12 +348,22 @@ textarea {
     font-size: 1.2rem;
     line-height: 1.6rem;
   }
+
+  .grid-container {
+    max-width: 430px;
+    margin: 0 auto;
+    padding-right: 60px;
+    padding-left: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    list-style: none;
+    gap: 50px;
+  }
 }
 
 .grid-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-
   list-style: none;
   gap: 50px;
 }
