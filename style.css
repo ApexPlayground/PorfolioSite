@@ -492,6 +492,25 @@ textarea {
   transition: background-color 0.3s ease-in-out;
 }
 
+.card-button2 {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: green;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.card-button2:hover {
+  opacity: 0.8;
+  background-color: lightgreen;
+}
+
+.card-button2:visited {
+  color: white;
+}
+
 .card-button:hover {
   opacity: 0.8;
   background-color: #333;
