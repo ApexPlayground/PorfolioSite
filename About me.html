@@ -1,135 +1,234 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;400&family=Open+Sans&family=Solitreo&display=swap"
-        rel="stylesheet">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;400&family=Noto+Sans+Tangsa:wght@600&family=Open+Sans&family=Solitreo&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;400&family=Open+Sans&family=Solitreo&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;400&family=Noto+Sans+Tangsa:wght@600&family=Open+Sans&family=Solitreo&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
 
     <title>About me</title>
-</head>
+  </head>
 
-<body>
-    <header class="page_head">
-        <nav class="navigation">
-            <div class="logo">
-                <h1><a href="index.html">APEX PLAYGROUND</a></h1>
-            </div>
-            <ul class="menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="Porfolio.html">Portfolio</a></li>
-                <li><a href="About me.html" class="active">About</a></li>
-            </ul>
-        </nav>
-    </header>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 mb-4">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">ApexPlayground</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <div class="about_container">
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link" data-bs-target="">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="Porfolio.html" class="nav-link">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a href="About me.html" class="nav-link">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="about_container">
         <section class="about_me">
-            <img src="img/about3.jpg" alt="Author's picture">
+          <div class="row">
             <div class="about_header">
-                <h2>About Me</h2>
+              <h2>About Me</h2>
             </div>
             <div class="about_body">
-                <p>Hey there! Thanks for stopping by. I'm Divine Eboigbe, a computer science student with a passion for
-                    developing my technical thinking and coding skills. If you want to learn more about me, feel free to
-                    get in touch. Thanks for visiting!</p>
+              <p>
+                Hey there! Thanks for stopping by. I'm Divine Eboigbe, a
+                computer science student with a passion for developing my
+                technical thinking and coding skills. If you want to learn more
+                about me, feel free to get in touch. Thanks for visiting!
+              </p>
             </div>
+
             <div class="about_header2">
-                <h2>Technologies I Use</h2>
+              <h2>Technologies I Use</h2>
             </div>
             <div class="about_body2">
-                <p>To bring my ideas to reality, I've acquired a wide range of valuable
-                    skills and technologies. Over the years, I've spent countless hours mastering various
-                    programming languages, such as HTML, CSS, JavaScript, Java, and Python, to name a few. In addition,
-                    I've become well-versed in various databases, including MySQL and MongoDB, and content management
-                    systems like WordPress. My expertise also extends to development tools like Git and popular
-                    front-end frameworks like Angular. With this knowledge, I have the power to turn my ideas into
-                    reality and bring them to life.</p>
-
-                <div class="grid-container">
-                    <ul>
-                        <li><i class="fa-brands fa-css3-alt" style="font-size: 25px; padding-right: 10px;"></i>CSS</li>
-
-                        <li><i class="fa-brands fa-wordpress"
-                                style="font-size: 25px; padding-right: 10px;"></i>WordPress</li>
-
-                        <li><i class="fab fa-js" style="font-size: 25px; padding-right: 10px;"></i>JavaScript</li>
-                        <li><i class="fab fa-angular" style="font-size: 25px; padding-right: 10px;"></i>Angular</li>
-
-                    </ul>
-                    <ul>
-                        <li><i class="fab fa-java" style="font-size: 25px; padding-right: 10px;"></i>Java</li>
-                        <li><i class="fas fa-database" style="font-size: 25px; padding-right: 10px;"></i>MongoDB</li>
-
-                        <li><i class="fab fa-python" style="font-size: 25px; padding-right: 10px;"></i>Python</li>
-                        <li><i class="fab fa-git" style="font-size: 25px; padding-right: 10px;"></i>Git</li>
-
-                    </ul>
-                    <ul>
-                        <li><i class="fas fa-database" style="font-size: 25px; padding-right: 10px;"></i>MySQL</li>
-                        <li><i class="fab fa-node" style="font-size: 25px; padding-right: 10px;"></i>Node.js</li>
-                        <li><i class="fa-brands fa-html5" style="font-size: 25px; padding-right: 10px;"></i>HTML</li>
-                        <li><i class="fab fa-react" style="font-size: 25px; padding-right: 10px;"></i>React</li>
-
-
-                    </ul>
-                    <ul>
-
-
-                    </ul>
-                </div>
-
-
+              <p>
+                To bring my ideas to reality, I've acquired a wide range of
+                valuable skills and technologies. Over the years, I've spent
+                countless hours mastering various programming languages, such as
+                HTML, CSS, JavaScript, Java, and Python, to name a few. In
+                addition, I've become well-versed in various databases,
+                including MySQL and MongoDB, and content management systems like
+                WordPress. My expertise also extends to development tools like
+                Git and popular front-end frameworks like Angular. With this
+                knowledge, I have the power to turn my ideas into reality and
+                bring them to life.
+              </p>
             </div>
+
+            <div class="grid-container">
+              <ul>
+                <li>
+                  <i
+                    class="fa-brands fa-css3-alt"
+                    style="font-size: 25px; padding-right: 10px"
+                  ></i
+                  >CSS
+                </li>
+
+                <li>
+                  <i
+                    class="fa-brands fa-wordpress"
+                    style="font-size: 25px; padding-right: 10px"
+                  ></i
+                  >WordPress
+                </li>
+
+                <li>
+                  <i
+                    class="fab fa-js"
+                    style="font-size: 25px; padding-right: 10px"
+                  ></i
+                  >JavaScript
+                </li>
+                <li>
+                  <i
+                    class="fab fa-angular"
+                    style="font-size: 25px; padding-right: 10px"
+                  ></i
+                  >Angular
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <i
+                    class="fab fa-java"
+                    style="font-size: 25px; padding-right: 10px"
+                  ></i
+                  >Java
+                </li>
+                <li>
+                  <i
+                    class="fas fa-database"
+                    style="font-size: 25px; padding-right: 10px"
+                  ></i
+                  >MongoDB
+                </li>
+
+                <li>
+                  <i
+                    class="fab fa-python"
+                    style="font-size: 25px; padding-right: 10px"
+                  ></i
+                  >Python
+                </li>
+                <li>
+                  <i
+                    class="fab fa-git"
+                    style="font-size: 25px; padding-right: 10px"
+                  ></i
+                  >Git
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <i
+                    class="fas fa-database"
+                    style="font-size: 25px; padding-right: 10px"
+                  ></i
+                  >MySQL
+                </li>
+                <li>
+                  <i
+                    class="fab fa-node"
+                    style="font-size: 25px; padding-right: 10px"
+                  ></i
+                  >Node.js
+                </li>
+                <li>
+                  <i
+                    class="fa-brands fa-html5"
+                    style="font-size: 25px; padding-right: 10px"
+                  ></i
+                  >HTML
+                </li>
+                <li>
+                  <i
+                    class="fab fa-react"
+                    style="font-size: 25px; padding-right: 10px"
+                  ></i
+                  >React
+                </li>
+              </ul>
+              <ul></ul>
+            </div>
+          </div>
         </section>
+      </div>
     </div>
 
-
-
     <footer class="footer">
-        <div class="socials">
-            <a href="https://www.instagram.com/dee_v.i.n.e/"><i class="fab fa-instagram"></i></a>
-            <a href="https://github.com/ApexPlayground"><i class="fab fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/divine-eboigbe-a63483205"><i class="fab fa-linkedin"></i></a>
-        </div>
+      <div class="socials">
+        <a href="https://www.instagram.com/dee_v.i.n.e/"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a href="https://github.com/ApexPlayground"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/divine-eboigbe-a63483205"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+      </div>
 
-        <div class="footer_items">
-            <ul class="footer_menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="Porfolio.html">Portfolio</a></li>
-                <li><a href="About me.html">About</a></li>
+      <div class="footer_items">
+        <ul class="footer_menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="Porfolio.html">Portfolio</a></li>
+          <li><a href="About me.html">About</a></li>
+        </ul>
+      </div>
 
-            </ul>
+      <p class="copyright">Apex Playground @2023</p>
 
-        </div>
+      <p class="contact">Mobile No: +353 89 415 0566</p>
 
-        <p class="copyright">
-            Apex Playground @2023
-        </p>
-
-        <p class="contact">
-            Mobile No: +353 89 415 0566
-        </p>
-
-        <p class="contact">
-            Email: ogbedivine7@gmail.com
-        </p>
-
+      <p class="contact">Email: ogbedivine7@gmail.com</p>
     </footer>
-
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

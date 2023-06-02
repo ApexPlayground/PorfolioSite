@@ -1,87 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;400&family=Open+Sans&family=Solitreo&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;400&family=Noto+Sans+Tangsa:wght@600&family=Open+Sans&family=Solitreo&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;400&family=Noto+Sans+Tangsa:wght@600&family=Open+Sans&family=Secular+One&family=Solitreo&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;400&family=Open+Sans&family=Solitreo&display=swap"
-        rel="stylesheet">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;400&family=Noto+Sans+Tangsa:wght@600&family=Open+Sans&family=Solitreo&display=swap"
-        rel="stylesheet">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;400&family=Noto+Sans+Tangsa:wght@600&family=Open+Sans&family=Secular+One&family=Solitreo&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
 
     <title>Home</title>
-</head>
+  </head>
 
-<body id="home">
-    <header class="page_head">
-        <nav class="navigation">
-            <div class="logo">
-                <h1><a href="index.html">APEX PLAYGROUND</a></h1>
-            </div>
-            <ul class="menu">
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="Porfolio.html">Portfolio</a></li>
-                <li><a href="About me.html">About</a></li>
-            </ul>
-        </nav>
-    </header>
+  <body id="home">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">ApexPlayground</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link" data-bs-target="">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="Porfolio.html" class="nav-link">Porfolio</a>
+            </li>
+            <li class="nav-item">
+              <a href="About me.html" class="nav-link">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
     <section class="intro">
-        <div class="home_container">
-            <div class="home_bg"></div>
-            <div class="home_content">
-                <h1 class="home_title">Hi, I'm DIVINE EBOIGBE</h1>
-                <h2 class="home_subtitle">FULLSTACK DEVELOPER</h2>
-            </div>
+      <div class="home_container">
+        <div class="home_bg"></div>
+        <div class="home_content">
+          <h1 class="home_title">Hi, I'm DIVINE EBOIGBE</h1>
+          <h2 class="home_subtitle">FULLSTACK DEVELOPER</h2>
         </div>
+      </div>
     </section>
 
-
     <footer class="footer">
-        <div class="socials">
-            <a href="https://www.instagram.com/dee_v.i.n.e/"><i class="fab fa-instagram"></i></a>
-            <a href="https://github.com/ApexPlayground"><i class="fab fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/divine-eboigbe-a63483205"><i class="fab fa-linkedin"></i></a>
-        </div>
+      <div class="socials">
+        <a href="https://www.instagram.com/dee_v.i.n.e/"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a href="https://github.com/ApexPlayground"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/divine-eboigbe-a63483205"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+      </div>
 
-        <div class="footer_items">
-            <ul class="footer_menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="Porfolio.html">Portfolio</a></li>
-                <li><a href="About me.html">About</a></li>
+      <div class="footer_items">
+        <ul class="footer_menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="Porfolio.html">Portfolio</a></li>
+          <li><a href="About me.html">About</a></li>
+        </ul>
+      </div>
 
-            </ul>
+      <p class="copyright">Apex Playground @2023</p>
 
-        </div>
+      <p class="contact">Mobile No: +353 89 415 0566</p>
 
-        <p class="copyright">
-            Apex Playground @2023
-        </p>
-
-        <p class="contact">
-            Mobile No: +353 89 415 0566
-        </p>
-
-        <p class="contact">
-            Email: ogbedivine7@gmail.com
-        </p>
-
+      <p class="contact">Email: ogbedivine7@gmail.com</p>
     </footer>
-
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
